@@ -5,6 +5,20 @@ description: "Build frontend interfaces across all runtimes: React/web apps, Goo
 
 # Frontend Skill
 
+## When to Skip
+
+- Backend-only API with no UI
+- Mobile-only app — go to `mobile`
+- The user is only modifying existing frontend code and doesn't need the full skill workflow
+
+## When to Use
+
+- Building web UI (React, static HTML)
+- Building Apps Script dialogs/sidebars
+- Any user-facing interface that needs the design language
+
+---
+
 Build production-grade frontend interfaces that follow the Logitech design language exactly. Every screen, dialog, and component must look like it belongs to the same product — regardless of runtime.
 
 ## Step 0: Load the Design Language

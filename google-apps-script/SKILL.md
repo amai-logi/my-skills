@@ -6,6 +6,20 @@ compatibility: claude-code-only
 
 # Google Apps Script
 
+## When to Skip
+
+- The app needs a custom backend, database, or complex UI — go to `software-architecture`
+- Mobile app — go to `mobile`
+- The user is working on an existing non-Apps Script project
+
+## When to Use
+
+- Simple automation within Google Workspace (Sheets, Docs, Forms, Gmail)
+- The `software-architecture` skill recommended Apps Script
+- Custom menus, triggers, dialogs, email automation, PDF export
+
+---
+
 Build automation scripts for Google Sheets and Workspace apps. Scripts run server-side on Google's infrastructure with a generous free tier.
 
 ## What You Produce

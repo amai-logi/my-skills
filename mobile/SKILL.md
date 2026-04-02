@@ -5,6 +5,20 @@ description: "Build mobile applications for iOS and Android. Covers React Native
 
 # Mobile Skill
 
+## When to Skip
+
+- Web-only application — go to `frontend`
+- Apps Script project — go to `google-apps-script`
+- The architecture doesn't include a mobile client
+
+## When to Use
+
+- The architecture specifies a mobile app (iOS, Android, or both)
+- Adding a mobile client to an existing backend
+- Building a device-specific app (barcode scanner, NFC reader)
+
+---
+
 Build mobile applications that connect to backends produced by the `backend` skill. Default to React Native for cross-platform. Use native Kotlin (Android) or Swift (iOS) only when the use case demands it.
 
 ## Step 0: Read Prerequisites

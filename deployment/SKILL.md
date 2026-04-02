@@ -5,6 +5,21 @@ description: "Deploy applications to local dev, cloud dev, or production environ
 
 # Deployment Skill
 
+## When to Skip
+
+- Apps Script — deployed via Extensions > Apps Script, no infrastructure needed
+- Quick prototype running locally with `docker-compose up` — already handled by `backend` skill
+- The user just wants to write code, not deploy yet
+
+## When to Use
+
+- Moving from local dev to a cloud or production environment
+- Setting up CI/CD pipelines
+- Provisioning cloud infrastructure (databases, storage, networking)
+- Production readiness review
+
+---
+
 Deploy applications across environments: local dev, cloud dev sandbox, and production. Dev is fast and manual. Prod is 100% automated through Terraform and GitHub Actions.
 
 ## Safety Rule — Read Only

@@ -5,6 +5,20 @@ description: "Build backend services in Go using stdlib net/http. Takes an OpenA
 
 # Backend Skill
 
+## When to Skip
+
+- The app is pure frontend (static site, client-side only)
+- Apps Script handles all logic — go to `google-apps-script`
+- The backend already exists and the user just needs frontend or mobile work
+
+## When to Use
+
+- New API or backend service from scratch
+- Scaffolding a Go project from an OpenAPI spec
+- Adding a new backend service to an existing system
+
+---
+
 Build production backend services in Go. Default stack: Go stdlib `net/http` (1.22+), PostgreSQL, Docker. Always evaluate whether alternatives are a better fit before committing to defaults.
 
 ## Step 0: Check for Architecture Output

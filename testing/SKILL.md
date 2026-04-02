@@ -5,6 +5,21 @@ description: "Test applications across all runtimes and deployment targets. Cove
 
 # Testing Skill
 
+## When to Skip
+
+- Quick prototype or POC — tests add overhead that isn't justified yet
+- Simple Apps Script automation with no business logic — a manual test checklist is enough
+- The user explicitly says they'll add tests later
+
+## When to Use
+
+- Any code going to production
+- Backend services with business logic
+- Frontend with forms, auth flows, or conditional rendering
+- Any project with an OpenAPI spec (contract tests)
+
+---
+
 Test applications at the right level for the right runtime. One principle: **test behavior, not implementation.** Tests should validate what the system does, not how it does it internally.
 
 ## Step 0: Understand What We're Testing

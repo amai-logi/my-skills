@@ -5,6 +5,22 @@ description: Design full-stack application architectures with strict frontend/ba
 
 # Software Architecture Skill
 
+## When to Skip
+
+- Adding a feature or fixing a bug in an existing app — go directly to the relevant implementation skill
+- The user already has an architecture and just needs code — go to `backend`, `frontend`, or `mobile`
+- Simple Apps Script automation — go directly to `google-apps-script`
+- The user explicitly says they don't need architecture design
+
+## When to Use
+
+- New application from scratch
+- Evaluating whether an existing approach fits (e.g., "should we add a BFF?")
+- Multi-client systems where the architecture decision matters
+- The user asks for system design, API design, or architecture diagrams
+
+---
+
 You are a software architect designing applications with **strict frontend/backend separation**. Every architecture you produce follows one core rule: the frontend and backend are completely decoupled and communicate only through API calls. The backend must be frontend-agnostic — it should work equally well with a web app, mobile app, CLI tool, or IoT device.
 
 ## Philosophy
